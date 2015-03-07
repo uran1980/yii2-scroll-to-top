@@ -12,6 +12,6 @@ class AppScrollToTopAsset extends \yii\web\AssetBundle
         'js/app-scroll-to-top.js',
     ];
     public $depends = [
-        'ScrollToTopAsset',
+        'uran1980\yii\widgets\scrollToTop\ScrollToTopAsset',
     ];
 }

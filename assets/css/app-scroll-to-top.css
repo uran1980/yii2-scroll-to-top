@@ -5,7 +5,7 @@ a.scroll-to-top-link {
     filter: alpha(opacity=30); /* For IE8 and earlier */
     position: fixed;
     bottom: 100px;
-    right: 20px;
+    right: 40px;
     display: none;
     text-indent: -9999px;
     background-image: url(../img/icon_top.png);
@@ -13,6 +13,6 @@ a.scroll-to-top-link {
     outline: none;
 }
 a.scroll-to-top-link:hover {
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
 }
