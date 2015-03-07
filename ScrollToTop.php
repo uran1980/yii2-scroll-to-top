@@ -2,7 +2,6 @@
 
 namespace uran1980\yii\widgets\scrollToTop;
 
-use AppScrollToTopAsset;
 use yii\helpers\Html;
 
 class ScrollToTop extends \yii\base\Widget
