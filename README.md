@@ -31,7 +31,7 @@ to the require section of your ```composer.json```
 To activate this widget on all pages add this line to you project main layout ```...\frontend\views\layouts\main.php``` before Yii ```endBody()``` block:
 
 ```php
-<?php echo \uran1980\yii\widgets\scrollToTop\ScrollToTop::widget(); ?>
+<?php echo uran1980\yii\widgets\scrollToTop\ScrollToTop::widget(); ?>
 ```
 
 
