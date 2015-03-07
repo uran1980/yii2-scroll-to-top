@@ -2,6 +2,8 @@
 
 Based on **[scrollToTop jQuery plugin](https://github.com/geniuscarrier/scrollToTop)**.
 
+![screen-01](https://cloud.githubusercontent.com/assets/1616795/6542894/d168c710-c510-11e4-899c-ae6ec8cfed6b.png)
+
 ## Installation
 
 
@@ -26,7 +28,7 @@ to the require section of your ```composer.json```
 
 ## Usage
 
-To activate this widget on all pages add this line to you project main layout ```...\frontend\views\layouts\main.php``` before Yii endBody() block:
+To activate this widget on all pages add this line to you project main layout ```...\frontend\views\layouts\main.php``` before Yii ```endBody()``` block:
 
 ```php
 <?php echo \uran1980\yii\widgets\scrollToTop\ScrollToTop::widget(); ?>
