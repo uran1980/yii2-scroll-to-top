@@ -13,10 +13,9 @@ class ScrollToTop extends \yii\base\Widget
      */
     public function init()
     {
-        $view = $this->getView();
-        $bandles = $view->getAssetManager()->bundles;
-        $this->isRegistered = isset($bandles['uran1980\\yii\\widgets\\scrollToTop\\ScrollToTopAsset']) ?: false;
-        AppScrollToTopAsset::register($view);
+        $bandles = $this->view->assetManager->bundles;
+        $this->isRegistered = isset($bandles['uran1980\\yii\\widgets\\scrollToTop\\ScrollToTopAsset']);
+        AppScrollToTopAsset::register($this->view);
     }
 
     /**
